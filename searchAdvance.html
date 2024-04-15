@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styleAdvance.css">
+        <link rel="icon" href="./project0 Images/google-icon-transparent.png">
+        <script src="./project0 scripts/idiomas.js" defer></script>
+        <script src="./project0 scripts/regiao.js" defer></script>
+        <script src="./project0 scripts/arquivo.js" defer></script>
+        <script src="./project0 scripts/data.js" defer></script>
+        <script src="./project0 scripts/direitos.js" defer></script>
+        <script src="./project0 scripts/termos.js" defer></script>
+    </head>
+    <body>
+        <div id="upPart">
+            <div id="image">
+                <img src="https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="86" height= auto>
+            </div>
+            <div id="words">
+                <div id="wordN">
+                    <a class="click" href="searchNormal.html">Search</a>
+                </div>
+                <div id="wordI">
+                    <a class="click" href="searchImage.html">Images</a>
+                </div>
+            </div>
+        </div>
+        <div id=pesquisaW>
+            <span>Advance Search</span>
+        </div>
+        <div class="linha"></div>           
+        <div id="forms">
+            <form action="https://google.com/search" role="search">
+                <span>Localizar páginas com ...</span>
+                <span id="organizeSpan">Fazer isso na caixa de pesquisa.</span>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>todas estas palavras: </span>
+                    </div>
+                    <input type="text" name="as_q" class="bar">
+                    <div class="organizeWord2">
+                        <span>Digite as palavras importantes: rat terrier tricolor </span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>esta expressão ou frase exata: </span>
+                    </div>
+                    <input type="text" name="as_epq" class="bar">
+                    <div class="organizeWord2">
+                        <span>Coloque palavras exatas entre aspas: "rat terrier" </span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>qualquer uma destas palavras: </span>
+                    </div>
+                    <input type="text" name="as_oq" class="bar">
+                    <div class="organizeWord2">
+                        <span>Digite OR entre todas as palavras que você procura: miniatura OR padrão </span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>nenhuma destas palavras: </span>
+                    </div>
+                    <input type="text" name="as_eq" class="bar">
+                    <div class="organizeWord2">
+                        <span>Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"  </span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>números que variam de: </span>
+                    </div>
+                    <div class="barAB">
+                        <input type="text" name="as_nlo" class="diferentBarA">
+                        <div style="display:inline-block;width:40px;padding-right:6px;padding-left:6px;text-align:center;font-size:13px;color:#222">a</div>
+                        <input type="text" name="as_nhi" class="diferentBarB">
+                    </div>
+                    <div class="organizeWord3">
+                        <span>Coloque 2 pontos finais entre os números e adicione uma unidade de medida: 10..35 lb, US$ 300..US$ 500, 2010..2011</span>
+                    </div>
+                </div>
+                <div class="linha2"></div>
+                <span>Em seguida, limite seus resultados por...</span>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>idioma: </span>
+                    </div>
+                    
+                    <div class="lowerPart" id="idiomasDiv">
+                        <input name="lr" type="hidden" id="idiomaInput">
+                        <div class="subInput" id="idiomasSub" value="lang-pt-br">qualquer idioma</div>
+                        <div class="menuDrop" id="idiomasMenu">
+                            <div id="qlqrIdioma" class="optionsIdioma">qualquer idioma</div>
+                            <div id="pt_br" class="optionsIdioma">Português</div>
+                            <div id="eng" class="optionsIdioma">Inglês</div>
+                            <div id="jp" class="optionsIdioma">Japonês</div>
+                            <div id="al" class="optionsIdioma">Alemão</div>
+                            <div id="rs" class="optionsIdioma">Russo</div>
+                            <div id="cn_s" class="optionsIdioma">Chinês (simplificado)</div>
+                            <div id="cn_t" class="optionsIdioma">Chinês (tradicional)</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Localizar páginas no idioma selecionado.</span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>região: </span>
+                    </div>
+
+                    <div class="lowerPart" id="regiaoDiv">
+                        <input name="cr" type="hidden" id="regiaoInput">
+                        <div class="subInput" id="regiaoSub" value="lang-pt-br">qualquer país</div>
+                        <div class="menuDrop" id="regiaoMenu">
+                            <div id="qlqrRegiao" class="optionsRegiao">qualquer país</div>
+                            <div id="br" class="optionsRegiao">Brasil</div>
+                            <div id="eua" class="optionsRegiao">Estados Unidos</div>
+                            <div id="cana" class="optionsRegiao">Canadá</div>
+                            <div id="england" class="optionsRegiao">Reino Unido</div>
+                            <div id="japan" class="optionsRegiao">Japão</div>
+                            <div id="alemanha" class="optionsRegiao">Alemanha</div>
+                            <div id="russia" class="optionsRegiao">Russia</div>
+                            <div id="china" class="optionsRegiao">China</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Encontre páginas publicadas em uma determinada região.</span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>última atualização: </span>
+                    </div>
+
+                    <div class="lowerPart" id="dataDiv">
+                        <input name="as_qdr" type="hidden" id="dataInput">
+                        <div class="subInput" id="dataSub" value="lang-pt-br">em qualquer data</div>
+                        <div class="menuDrop" id="dataMenu">
+                            <div id="qlqrData" class="optionsData">em qualquer data</div>
+                            <div id="hora" class="optionsData">nas últimas 24 horas</div>
+                            <div id="semana" class="optionsData">na última semana</div>
+                            <div id="mes" class="optionsData">no último mês</div>
+                            <div id="ano" class="optionsData">no último ano</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Encontre páginas atualizadas dentro do tempo especificado.</span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>site ou domínio: </span>
+                    </div>
+                    <input type="text" name="as_sitesearch" class="bar">
+                    <div class="organizeWord2">
+                        <span>Pesquise um site (como wikipedia.org ) ou limite seus resultados a um domínio como .edu, .org ou .gov</span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>termos que aparecem: </span>
+                    </div>
+
+                    <div class="lowerPart" id="termosDiv">
+                        <input name="as_occt" type="hidden" id="termosInput">
+                        <div class="subInput" id="termosSub">qualquer lugar da página</div>
+                        <div class="menuDrop" id="termosMenu">
+                            <div id="qlqrLugar" class="optionsTermos">qualquer lugar da página</div>
+                            <div id="titulo" class="optionsTermos">no titúlo da página</div>
+                            <div id="texto" class="optionsTermos">no texto da página</div>
+                            <div id="URLs" class="optionsTermos">no URL da página</div>
+                            <div id="links" class="optionsTermos">em links para a página</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Pesquise por termos em toda a página, no título da página, no endereço da Web ou em links para a página que está procurando.</span>
+                    </div>
+                </div>
+
+<!--!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!--> 
+<!--
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>SafeSearch: </span>
+                    </div>
+                    <input type="text" name="q" class="bar">
+                    <div class="organizeWord2">
+                        <span>Ative a filtragem de conteúdo sexualmente explícito no SafeSearch.</span>
+                    </div>
+                </div>
+-->
+<!--!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!!Não É MAIS USADO!-->               
+                
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>tipo de arquivo: </span>
+                    </div>
+
+                    <div class="lowerPart" id="arquivoDiv">
+                        <input name="as_filetype" type="hidden" id="arquivoInput">
+                        <div class="subInput" id="arquivoSub" value="lang-pt-br">qualquer formato</div>
+                        <div class="menuDrop" id="arquivoMenu">
+                            <div id="qlqrArquivo" class="optionsArquivo">qualquer formato</div>
+                            <div id="pdf" class="optionsArquivo">Adobe Acrobat PDF (.pdf)</div>
+                            <div id="ps" class="optionsArquivo">Adobe Postscript (.ps)</div>
+                            <div id="dwf" class="optionsArquivo">Autodesk DWF (.dwf)</div>
+                            <div id="kml" class="optionsArquivo">Google Earth KML (.kml)</div>
+                            <div id="kmz" class="optionsArquivo">Google Earth KMZ (.kmz)</div>
+                            <div id="xls" class="optionsArquivo">Microsoft Excel (.xls)</div>
+                            <div id="ppt" class="optionsArquivo">Microsoft Powerpoint (.ppt)</div>
+                            <div id="doc" class="optionsArquivo">Microsoft Word (.doc)</div>
+                            <div id="rtf" class="optionsArquivo">Formato Rich Text (.rtf)</div>
+                            <div id="swf" class="optionsArquivo">Shockwave Flash (.swf)</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Encontre páginas no formato que preferir.</span>
+                    </div>
+                </div>
+                <div id="form1" class="organizeForm">
+                    <div class="organizeWord">
+                        <span>direitos de uso: </span>
+                    </div>
+
+                    <div class="lowerPart" id="direitosDiv">
+                        <input data-name="sur" type="hidden" id="direitosInput">
+                        <div class="subInput" id="direitosSub">não filtrados por licença</div>
+                        <div class="menuDrop" id="direitosMenu">
+                            <div id="qlqrDireitos" class="optionsDireitos">não filtrados por licença</div>
+                            <div id="uso1" class="optionsDireitos">sem restrições de uso ou compartilhamento</div>
+                            <div id="uso2" class="optionsDireitos">sem restrições de uso ou compartilhamento, mesmo comercialmente</div>
+                            <div id="uso3" class="optionsDireitos">Sem restrições de uso, compartilhamento ou modificação</div>
+                            <div id="uso4" class="optionsDireitos">sem restrições de uso, compartilhamento ou modificação, mesmo comercialmente</div>
+                        </div>
+                        <div class="iconImage">
+                            <img src="./project0 Images/arrow-down-sign-to-navigate.png" class="arrowIcon">
+                        </div>
+                    </div>
+
+                    <div class="organizeWord2">
+                        <span>Encontre páginas em que não haja restrições de uso.</span>
+                    </div>
+                </div>
+                <div>
+                    <div id="hidden"></div>
+                    <input value="Pesquisa avançada" type="submit" id="button">
+                </div>
+            </form>
+            <div>
+                <div class="linha2"></div>
+                <span>Você também pode...</span>
+                <div id="aSupremo">
+                    <a class="click" href="https://support.google.com/websearch/answer/2466433" id="a1">Encontrar páginas semelhantes a um URL</a>
+                    <a class="click" href="https://support.google.com/websearch/answer/54068" id="a1">Páginas de pesquisa que você visitou</a>
+                    <a class="click" href="https://support.google.com/websearch/answer/2466433" id="a1">Usar operadores na caixa de pesquisa</a>
+                    <a class="click" href="https://www.google.com.br/preferences" id="a1">Personalizar suas configurações de pesquisa</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

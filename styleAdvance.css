@@ -1,0 +1,296 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+div#upPart{
+    padding: 10px;
+}
+div#image{
+    display: inline;
+}
+div#words{
+    display: inline;
+    float: right;
+    vertical-align: middle;
+}
+div#wordN{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+div#wordI{
+    display: inline-block;
+    vertical-align: middle;
+}
+div#pesquisaW{
+    position: relative;
+    color: #d93025;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    margin: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+div.linha{
+    width: 100%;
+    height: 0px;
+    border-color: #222;
+    border-bottom: 1px solid black;
+}
+div.linha2{
+    width: 100%;
+    height: 0px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-color: #222;
+    border-top: 1px solid black;
+}
+div#forms{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: auto;
+    font-size: 16px;
+}
+div.organizeForm{
+    position: relative;
+    margin-top: 10px;
+}
+input.bar{
+    display: inline-block;
+    position: relative;
+    padding-right: 16px;
+    margin-right: 10px;
+    width: 50%;
+    height: 29px;
+    max-width: 540px;
+    min-width: 167px;
+    vertical-align: middle;
+}
+div.organizeWord{
+    display: inline-block;
+    position: relative;
+    width: 167px;
+    height: auto;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align:middle;
+}
+input.diferentBarA{
+    display: inline-block;
+    position: relative;
+    width: 37.6%;
+    height: 29px;
+
+}
+input.diferentBarB{
+    display: inline-block;
+    position: relative;
+    width: 37.6%;
+    height: 29px;
+}
+div.barAB{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+div#aSupremo{
+    position: relative;
+    margin-top: 10px;
+}
+a#a1{
+    display: block;
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;  
+}
+input#button:hover{
+    background: #aecbfa;
+}
+input#button{
+    display: inline-block;
+    position: relative;
+    left: 34.3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    width: 101.516px;
+    height: 28px;
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    border: 1px solid #8ab4f8;
+    color: #202124;
+    height: 30px;
+    min-width: 120px;
+    outline: 0;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+div#hidden{
+    display: inline-block;
+    position: relative;
+    width: 167px;
+    height: 42px;
+    font-size: 13px;
+    line-height: 16px;
+}
+span#organizeSpan{
+    position: relative;
+    left: 555px;
+}
+div.organizeWord2{
+    display: inline-block;
+    position: relative;
+    width: 32%;
+    height: auto;
+    min-width: 160px;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align:middle;
+}
+div.organizeWord3{
+    display: inline-block;
+    position: relative;
+    right: 72px;
+    width: 32%;
+    height: auto;
+    min-width: 160px;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align:middle;
+}
+div.lowerPart{
+    border: 1px solid #767676;
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    height: 29px;
+    max-width: 540px;
+    min-width: 167px;
+    vertical-align: middle;
+}
+div.lowerPart:hover{
+    border-color: #202124;
+}
+div.subInput{
+    position: relative;
+    top: 6px;
+    font-size: 0.8rem;
+}
+div.menuDrop{
+    position: relative;
+    z-index: 50;
+    right: 10px;
+    top: 14px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    background-color: #bebebe;
+    box-shadow:0 1px 1px 1px black;
+    font-size: 0.8rem;
+    overflow-y: scroll;
+    display: none;
+}
+
+/*Classes Diferentes para cada opção*/
+
+/*Idioma*/
+div.optionsIdioma{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsIdioma:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+/*Região*/
+div.optionsRegiao{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsRegiao:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+/*Data*/
+div.optionsData{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsData:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+/*Termos*/
+div.optionsTermos{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsTermos:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+/*Arquivo*/
+div.optionsArquivo{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsArquivo:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+/*Direitos*/
+div.optionsDireitos{
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+div.optionsDireitos:hover{
+    background-color: #aecbfa;
+    cursor: pointer;
+}
+
+
+/*Final das classes diferentes para cada opção*/
+
+div#direitosMenu{
+    overflow-x: scroll;
+}
+
+div.iconImage{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    vertical-align: middle;
+}
+img.arrowIcon{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -5px;
+}
+@media (max-width: 1056px){
+    span#organizeSpan{
+        display: none !important;
+    }
+    div.organizeWord2 {
+        display: none !important;
+    }
+    div.organizeWord3 {
+        display: none !important;
+    }
+}
+
+

@@ -1,0 +1,97 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    text-align: center;
+}
+div#Upper{
+    width: 683px;
+    height: 48px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+div#Words{
+    position: relative;
+    left: 1110px;
+    float: right;
+    justify-content: flex-end;
+}
+div#Word_A{
+    display: inline-block;
+    padding-left: 15px;
+}
+div#Word_I{
+    display: inline-block;
+    padding-left: 15px;
+}
+div#Image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#Fix{
+    position:relative;
+    top: 70px;
+}
+form{
+    display: block;
+    width: 1085px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input#Bar{
+    display: flex;
+    margin: 20px;
+    border-radius: 24px;
+    width: 584px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    box-sizing: border-box;
+    outline: none;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://st2.depositphotos.com/5266903/7830/v/450/depositphotos_78309244-stock-illustration-search-flat-blue-color-icon.jpg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 14px;
+    background-position-y: center;
+    padding-inline-start: 47px;
+}
+input.Buttons{
+    display: inline-block;
+    margin-top: 18px;
+    width: 106,641px;
+    height: 34px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+a.click{
+    color: #3c4043;
+    text-decoration: none;
+}
+a.click:hover{
+    color: #3c4043;
+    cursor: pointer;
+    text-decoration: underline;
+}
+input#Bar:hover{
+    box-shadow:0 4px 4px #999;
+}
+.Buttons:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
